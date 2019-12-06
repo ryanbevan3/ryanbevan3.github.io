@@ -1,0 +1,79 @@
+/* Style the navigation bar */
+body{
+    background-color: rgb(85, 46, 46);
+    /* background-color: #34495E; */
+}
+
+.container {
+    text-align: center; 
+    color: white;
+}
+
+.containerPictures {
+  display: inline-block;
+  padding: 40px;
+  text-align: center; 
+  color: white;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+.pictureOneHeader {
+  width: 275px;
+  text-align: center;
+}
+
+.pictureOne {
+  width: 275px;
+  text-align: center;
+}
+
+.homeTextContainer {
+  width: 50%;
+  text-align: center; 
+  display: inline-block;
+}
+
+.homeHeader {
+  width: 50%;
+  text-align: center; 
+  display: inline-block;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    display: inline-block; 
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #909497;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: rgb(85, 46, 46);
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
